@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-TripPlanner-37cf0f7c-8826-476f-b3c2-945b14d276a7</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ActivityMedia\**" />
+    <Compile Remove="Models\Activity\**" />
+    <Compile Remove="Models\Comment\**" />
+    <Compile Remove="Models\Item\**" />
+    <Compile Remove="Models\TripItem\**" />
+    <Compile Remove="Models\TripSummary\**" />
+    <Compile Remove="Models\Trip\**" />
+    <Compile Remove="Models\UserActivity\**" />
+    <Compile Remove="Models\UserTrip\**" />
+    <Compile Remove="Models\User\**" />
+    <Content Remove="Models\ActivityMedia\**" />
+    <Content Remove="Models\Activity\**" />
+    <Content Remove="Models\Comment\**" />
+    <Content Remove="Models\Item\**" />
+    <Content Remove="Models\TripItem\**" />
+    <Content Remove="Models\TripSummary\**" />
+    <Content Remove="Models\Trip\**" />
+    <Content Remove="Models\UserActivity\**" />
+    <Content Remove="Models\UserTrip\**" />
+    <Content Remove="Models\User\**" />
+    <EmbeddedResource Remove="Models\ActivityMedia\**" />
+    <EmbeddedResource Remove="Models\Activity\**" />
+    <EmbeddedResource Remove="Models\Comment\**" />
+    <EmbeddedResource Remove="Models\Item\**" />
+    <EmbeddedResource Remove="Models\TripItem\**" />
+    <EmbeddedResource Remove="Models\TripSummary\**" />
+    <EmbeddedResource Remove="Models\Trip\**" />
+    <EmbeddedResource Remove="Models\UserActivity\**" />
+    <EmbeddedResource Remove="Models\UserTrip\**" />
+    <EmbeddedResource Remove="Models\User\**" />
+    <None Remove="Models\ActivityMedia\**" />
+    <None Remove="Models\Activity\**" />
+    <None Remove="Models\Comment\**" />
+    <None Remove="Models\Item\**" />
+    <None Remove="Models\TripItem\**" />
+    <None Remove="Models\TripSummary\**" />
+    <None Remove="Models\Trip\**" />
+    <None Remove="Models\UserActivity\**" />
+    <None Remove="Models\UserTrip\**" />
+    <None Remove="Models\User\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="10.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.14" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.14" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+</Project>
